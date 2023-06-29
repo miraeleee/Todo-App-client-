@@ -11,8 +11,7 @@ function Todo({ item }) {
           <div key={index}>
             <input type="checkbox" />
             <label>{value}</label>
-            <button onClick={() => deleteById(index)}>DELETE</button>
-           
+            <button>DELETE</button>
           </div>
         );
       })}
